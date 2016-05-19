@@ -1,0 +1,30 @@
+body {
+  font-family: palatino;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 30px;
+  border-bottom: 5px solid #222222;
+  border-top: 5px solid #222222;
+  padding: 50px;
+  background-color: #FFFFFF;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+h1 {
+font-family: palatino; 
+text-align: left;
+}
+p {
+ font-family: palatino; 
+text-align: left;  
+}
+h3 {font-family: palatino; 
+text-align: left;
+}
+h4 {font-family: palatino; 
+text-align: left;
+}
+
+ 
