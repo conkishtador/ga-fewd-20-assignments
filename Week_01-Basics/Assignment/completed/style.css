@@ -1,12 +1,12 @@
 body {
-  font-family: palatino;
-  font-size: 20px;
+  font-family: GentiumBasicBold;
+  font-size: 15px;
   line-height: 1.5;
-  margin: 30px;
+  margin: 15px;
   border-bottom: 5px solid #222222;
   border-top: 5px solid #222222;
   padding: 50px;
-  background-color: white;      
+  background-color: #FFFFFF;      
 }
  @font-face {
  font-family:"GentiumBasicBold";
@@ -17,19 +17,19 @@ img {
 	height: auto;
 }
 h1 {
-	font-family: palatino; 
+	font-family: GentiumBasicBold; 
 	text-align: left;
 }
 p {
- 	font-family: palatino; 
+ 	font-family: GentiumBasicBold; 
 	text-align: left;  
 }
 h3 {
-	font-family: palatino; 
+	font-family: GentiumBasicBold; 
 	text-align: left;
 }
 h4 {
-	font-family: palatino; 
+	font-family: GentiumBasicBold; 
 	text-align: left;
 }
 
