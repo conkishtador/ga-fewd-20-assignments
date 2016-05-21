@@ -17,19 +17,19 @@ img {
 	height: auto;
 }
 h1 {
-	font-family: GentiumBasicBold; 
+	font-family:"GentiumBasicBold"; 
 	text-align: left;
 }
 p {
- 	font-family: GentiumBasicBold; 
+ 	font-family: "GentiumBasicBold"; 
 	text-align: left;  
 }
 h3 {
-	font-family: GentiumBasicBold; 
+	font-family: "GentiumBasicBold"; 
 	text-align: left;
 }
 h4 {
-	font-family: GentiumBasicBold; 
+	font-family: "GentiumBasicBold"; 
 	text-align: left;
 }
 
