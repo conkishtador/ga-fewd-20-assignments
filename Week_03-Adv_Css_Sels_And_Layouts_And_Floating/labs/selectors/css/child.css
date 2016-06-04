@@ -1,7 +1,22 @@
 
 /** CSS RULES GO IN HERE */
-
-
-
+section > div > p a.kishore1 {
+	background-color: #228833;
+}
+section > div > p a.kishore1:hover {
+	font-size: 100px;
+	font-family: arial;
+	background-color: #FF250D;
+}
+section div a#kishore2 {
+	background-color: #FF7912;
+	font-size: 25px;
+	font-family: helvetica;
+}
+section div a#kishore2:hover {
+	background-color: #FF2BF8;
+	font-size: 25px;
+	font-family: helvetica;
+}
 
 

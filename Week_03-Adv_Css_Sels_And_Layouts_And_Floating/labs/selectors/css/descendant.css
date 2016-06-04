@@ -1,6 +1,25 @@
 
 /** CSS RULES GO IN HERE */
-
+section div p#kish1 a {
+	background-color: #0000FF;
+	color:#FF0000;
+	font-style: italic;
+}
+section div p.kish2 a:hover {
+	background-color: #FF57DD;
+	color:#00FF88;
+	font-family: times;
+	font-weight: bold;
+}
+section div p.kish2 a {
+	text-decoration: none;
+}
+.portfolio:hover {
+	background-color: yellow;
+	color:green;
+	font-size: 40px;
+	font-style: italic;
+}
 
 
 

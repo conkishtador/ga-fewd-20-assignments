@@ -1,7 +1,20 @@
 
 /** CSS RULES GO IN HERE */
-
-
+a:hover {
+	color: #FF12FF;
+	background-color: #595FFF;
+}
+#mywork:hover {
+	color: #45FF45;
+	background-color: #FF722B;
+}
+#mywork {
+	text-decoration: none;
+}
+article.myarticle:first-child {
+	background-color: #FFD4FF;
+	font-color: #FFD4FF;
+}
 
 
 
