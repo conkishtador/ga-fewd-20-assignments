@@ -1,0 +1,40 @@
+body {
+	padding:0px;
+	margin: 0px;
+	background-color:#F8FFE8;	
+	font-size: 25px;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 80%;
+    max-width: 1024px;
+}
+@font-face {
+ 	font-family:"FjordOne-Regular";
+ 	src: url("FjordOne-Regular.ttf");
+}
+h1 	   {
+	text-align: center;
+}
+header {
+    margin-bottom: 16px;
+    border:10px;
+}
+div.text {
+    width: 50%;
+    min-width: 390px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+}
+#Prowie {
+	height:auto;
+	width:auto;
+}
+header, article, footer {
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
