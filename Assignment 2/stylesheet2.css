@@ -1,7 +1,7 @@
 body {
 	padding:0px;
 	margin: 0px;
-	background-color:#F8FFE8;	
+	background-color:#FFF5EE;	
 	font-size: 25px;
 }
 main {
@@ -28,6 +28,7 @@ div.text {
     min-width: 390px;
     margin-left: 16px;
     margin-right: 16px;
+    text-align: left;
 }
 }
 #Prowie {
@@ -35,6 +36,15 @@ div.text {
 	width:auto;
 }
 header, article, footer {
-    border: 5px solid #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
+}
+footer {
+	text-align: center;
+}
+nav {
+	word-spacing: 1px;
+}
+p.social {
+	text-align: center;
 }
