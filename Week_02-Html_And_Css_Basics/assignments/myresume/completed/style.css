@@ -1,0 +1,57 @@
+body {
+  	font-family: GentiumBasicBold;
+  	font-size: 15px;
+  	line-height: 1.5;
+  	margin: 15px;
+  	border-bottom: 5px solid #222222;
+  	border-top: 5px solid #222222;
+  	padding: 50px;  
+  	/* INCLUDE A NEW BACKGROUND PIC IN THE SELECTOR BELOW AND MAKE SURE TO SIZE IT CORRECTLY */
+  	background-image: URL(); 
+  	background-size: auto;   
+}
+ @font-face {
+ 	      font-family:"FjordOne-Regular";
+ 	      src: url("FjordOne-Regular.ttf");
+}
+#mypicture {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family:"RockSalt"; 
+	text-align: left;
+}
+
+p {
+ 	font-family: "FjordOne-Regular"; 
+	text-align: left;  
+}
+
+h3 {
+	font-family: "FjordOne-Regular"; 
+	text-align: left;
+}
+
+#p1 {
+	text-align: left;
+	font-family: "FjordOne-Regular"; 
+}
+
+h4 {
+	font-family: "FjordOne-Regular"; 
+	text-align: left;
+}
+
+div {
+    width: 278px;
+    height: 278px;
+    padding: 3px;
+    border: 10px solid black;
+    margin: 0; 
+}
+p.social {
+	text-align: center;
+	float;
+}

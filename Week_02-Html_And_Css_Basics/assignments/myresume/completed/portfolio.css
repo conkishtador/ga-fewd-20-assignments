@@ -1,0 +1,53 @@
+body {
+    font-family: GentiumBasicBold;
+    font-size: 15px;
+    line-height: 30;
+    margin: 15px;
+    border-bottom: 5px solid #222222;
+    border-top: 5px solid #222222;
+    padding: 50px;
+    background-color: #FFFFFF;      
+}
+ @font-face {
+    font-family:"GentiumBasicBold";
+    src: url("GenBasB.ttf");
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+div {
+    width: 278px;
+    height: 278px;
+    padding: 3px;
+    border: 10px solid black;
+    margin: 0; 
+}
+#chair
+  {
+    float:left;
+  }
+#SF
+  {
+    float:left;
+  }
+#falaknuma
+  {
+    float:right;
+  }
+#overla
+  {
+    float:right;
+  }
+
+  p.social {
+    text-align: center;
+    float;
+  }
+
+  #backbutton {}
+  
