@@ -24,30 +24,36 @@ div {
     width: 278px;
     height: 278px;
     padding: 3px;
-    border: 10px solid black;
+    border: 6px solid black;
     margin: 0; 
 }
 #chair
   {
     float:left;
+    margin-right: 10px;
   }
 #SF
   {
     float:left;
+    margin-right: 10px;
   }
 #falaknuma
   {
     float:right;
+    margin-right: 10px;
   }
 #overla
   {
     float:right;
+    margin-right: 10px;
   }
 
   p.social {
-    text-align: center;
-    float;
+    text-aling:center;
+    color:#FFFFFF;
   }
 
-  #backbutton {}
+  footer {
+    text-align:center;
+  }
   

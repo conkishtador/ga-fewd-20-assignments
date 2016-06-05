@@ -1,9 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	padding:0px;
 	margin: 0px;
 	background-color:#FFF5EE;	
 	font-size: 25px;
 }
+
 main {
     margin-left: auto;
     margin-right: auto;
@@ -12,42 +20,61 @@ main {
     width: 80%;
     max-width: 1024px;
 }
+
 @font-face {
  	font-family:"FjordOne-Regular";
  	src: url("FjordOne-Regular.ttf");
 }
+
 h1 	   {
 	text-align: center;
 }
+
 header {
     margin-bottom: 16px;
     border:10px;
 }
-div.text {
+
+div.block1 {
     width: 50%;
     min-width: 390px;
     margin-left: 16px;
     margin-right: 16px;
     text-align: left;
 }
-}
+
 #Prowie {
-	height:auto;
-	width:auto;
+    float:right;
+    width:5%;
 }
-header, article, footer {
+
+#mayfair {
+    float:;left;
+    width:20%;
+}
+
+header, article {
     border: 2px solid #000000;
     border-radius: 10px;
 }
+
 footer {
 	text-align: center;
 }
+
 nav {
 	word-spacing: 1px;
 }
+
 p.social {
 	text-align: center;
 }
-#pic1 {
+
+#article1 {
     text-align: left;
 }
+
+#article2 {
+    text-align: left;
+}
+
