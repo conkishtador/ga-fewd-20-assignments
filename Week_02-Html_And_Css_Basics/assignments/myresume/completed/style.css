@@ -7,7 +7,7 @@ body {
   	border-top: 5px solid #222222;
   	padding: 50px;  
   	/* INCLUDE A NEW BACKGROUND PIC IN THE SELECTOR BELOW AND MAKE SURE TO SIZE IT CORRECTLY */
-  	background-image: URL(); 
+  	background-color: #fafafa; 
   	background-size: auto;   
 }
  @font-face {
@@ -52,6 +52,6 @@ div {
     margin: 0; 
 }
 p.social {
-	text-align: center;
-	float;
-}
+    text-align:center;
+    color:#FFFFFF;
+  }

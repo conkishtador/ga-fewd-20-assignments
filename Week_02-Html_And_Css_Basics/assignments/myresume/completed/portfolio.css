@@ -1,3 +1,5 @@
+
+
 body {
     font-family: GentiumBasicBold;
     font-size: 15px;
@@ -19,6 +21,13 @@ body {
     text-align: center;
     font-style: italic;
 }
+header {
+    height:100px;
+    background:#FFFFFF;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
 
 div {
     width: 278px;
@@ -31,29 +40,30 @@ div {
   {
     float:left;
     margin-right: 10px;
+    text-align:center;
   }
 #SF
   {
     float:left;
     margin-right: 10px;
+    text-align:center;
   }
 #falaknuma
   {
     float:right;
     margin-right: 10px;
+    text-align:center;
   }
 #overla
   {
     float:right;
     margin-right: 10px;
+    text-align:center;
   }
 
   p.social {
-    text-aling:center;
+    text-align:center;
     color:#FFFFFF;
   }
 
-  footer {
-    text-align:center;
-  }
   
