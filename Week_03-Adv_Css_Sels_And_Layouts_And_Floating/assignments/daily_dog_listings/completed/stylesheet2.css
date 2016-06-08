@@ -50,58 +50,29 @@ div#pic1 {
     background-color:#FFF5EE;
 }
 
-p#caption1 {
-    clear:right;
-}
-
 div#pic2 {
     margin-bottom: 20px;
     border: solid #000000 5px;
     background-color:#FFF5EE;
 }
 
-p#caption2 {
-    clear:left;
-}
-
-#skull {
+#prowie {
     width:20%;
-    margin-right:auto;
-    margin-left: auto;
+    margin:auto;
     clear:right;
-
 }
 
 #mayfair {
     width:20%;
     margin:auto;
-    margin: auto;
-    clear-left;
-}
-
-header, article {
-    border: 2px solid #000000;
-    border-radius: 10px;
+    clear:left;
 }
 
 footer {
 	text-align: center;
 }
 
-nav {
-	word-spacing: 1px;
-}
-
 p.social {
 	text-align: center;
     text-underline-position: none;
 }
-
-#article1 {
-    text-align: left;
-}
-
-#article2 {
-    text-align: left;
-}
-
