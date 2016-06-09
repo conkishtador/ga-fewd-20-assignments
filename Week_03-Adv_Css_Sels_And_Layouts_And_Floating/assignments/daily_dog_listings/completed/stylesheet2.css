@@ -50,22 +50,20 @@ div#pic1 {
     background-color:#FFF5EE;
 }
 
+#mayfair {
+    width:20%;  
+    margin:auto;
+}
+
 div#pic2 {
     margin-bottom: 20px;
     border: solid #000000 5px;
     background-color:#FFF5EE;
 }
 
-#prowie {
+#skull   {
     width:20%;
-    margin:auto;
-    clear:right;
-}
-
-#mayfair {
-    width:20%;
-    margin:auto;
-    clear:left;
+    margin:auto; 
 }
 
 footer {
