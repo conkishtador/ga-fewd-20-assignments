@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #3B3A35; 
+  font-family: 'Libre Baskerville', serif;
+  margin:1px;
+  padding:0px;
+}
+
+.textblock {
+  margin-left:10px;
+}
+
+#paragraph1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+}

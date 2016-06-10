@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #3B3A35; 
+  font-family: 'Libre Baskerville', serif;
+}
+
+#name {
+  font-family:'Libre Baskerville', serif;
+  color:#D93240;
+  text-align:center;
+  text-weight:450px;
+  font-size:100px;
+}
+

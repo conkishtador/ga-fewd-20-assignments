@@ -1,57 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  	font-family: GentiumBasicBold;
-  	font-size: 15px;
-  	line-height: 1.5;
-  	margin: 15px;
-  	border-bottom: 5px solid #222222;
-  	border-top: 5px solid #222222;
-  	padding: 50px;  
-  	/* INCLUDE A NEW BACKGROUND PIC IN THE SELECTOR BELOW AND MAKE SURE TO SIZE IT CORRECTLY */
-  	background-color: #fafafa; 
-  	background-size: auto;   
-}
- @font-face {
- 	      font-family:"FjordOne-Regular";
- 	      src: url("FjordOne-Regular.ttf");
-}
-#mypicture {
-	max-width: 100%;
-	height: auto;
+  background-color: #3B3A35; 
+  font-family: 'Libre Baskerville', serif;
+  margin:1px;
+  padding:0px;
 }
 
-h1 {
-	font-family:"RockSalt"; 
-	text-align: left;
+header {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
 }
 
-p {
- 	font-family: "FjordOne-Regular"; 
-	text-align: left;  
+#name {
+  font-family:'Libre Baskerville', serif;
+  color:#D93240;
+  text-align:center;
+  font-weight:450px;
+  font-size:4em;
 }
 
-h3 {
-	font-family: "FjordOne-Regular"; 
-	text-align: left;
+#picturecontainer {
+  width:500px;
+  height:auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#p1 {
-	text-align: left;
-	font-family: "FjordOne-Regular"; 
+#cart {
+  width:500px;
+  height:auto;
+  margin-right: auto;
+  margin-left:auto;
+
 }
 
-h4 {
-	font-family: "FjordOne-Regular"; 
-	text-align: left;
+footer {
+  text-align: center;
+  font-weight: 200px;
+  position:bottom;
+  display: block;
 }
 
-div {
-    width: 278px;
-    height: 278px;
-    padding: 3px;
-    border: 10px solid black;
-    margin: 0; 
+#footertext {
+  font-family:'Libre Baskerville', serif;
+  color:#FFFFFF;
+  text-align:center;
+  font-weight:450px;
+  font-size:20px;
+  text-decoration: italic;
 }
-p.social {
-    text-align:center;
-    color:#FFFFFF;
-  }
+
+header {
+  display: block;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+#aboutmelink {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+#experiencelink {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+#myworklink {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+
+
+
