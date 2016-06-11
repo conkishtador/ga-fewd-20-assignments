@@ -8,81 +8,60 @@ html {
 
 body {
   background-color: #3B3A35; 
-  font-family: 'Libre Baskerville', serif;
+  font-family:'Libre Baskerville', serif;
   margin:1px;
   padding:0px;
 }
 
 header {
-  display: block;
+  display:block;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
-#name {
+text#name {
   font-family:'Libre Baskerville', serif;
   color:#D93240;
   text-align:center;
   font-weight:450px;
-  font-size:4em;
+  font-size:28px;
 }
 
-#picturecontainer {
+div#picturecontainer {
   width:500px;
   height:auto;
   margin-right: auto;
   margin-left: auto;
 }
 
-#cart {
+img#cart {
   width:500px;
   height:auto;
   margin-right: auto;
   margin-left:auto;
+  display:block;
+  align-content: center;
 
 }
 
-footer {
-  text-align: center;
-  font-weight: 200px;
-  position:bottom;
-  display: block;
+div.bottomnav {
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 50px;
 }
 
-#footertext {
+p#text a {
   font-family:'Libre Baskerville', serif;
   color:#FFFFFF;
   text-align:center;
   font-weight:450px;
   font-size:20px;
-  text-decoration: italic;
-}
-
-header {
-  display: block;
-  width: 45%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-}
-
-#aboutmelink {
-  color:#FFFFFF;
   text-decoration: none;
 }
 
-#experiencelink {
-  color:#FFFFFF;
-  text-decoration: none;
+div.socialfooter i a {
+  text-align: center;
 }
-
-#myworklink {
-  color:#FFFFFF;
-  text-decoration: none;
-}
-
-
-
-
