@@ -1,0 +1,82 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color:#FFFFFF;
+	font-family: 'Abril Fatface', cursive;
+	padding:0px;
+}
+
+div#mainpic {
+	width:100%;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+}
+
+img#rickshaw {
+	width: 100%;
+	max-width:100%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name {
+	width:70%;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-size:100px;
+	text-decoration:underline;
+	margin-left: 10px;
+}
+
+div.aboutme {
+	display:block;
+	width: 600px;
+	height:auto;
+	margin-right: 10px;
+	float:right;
+	border: 3px solid #000000;
+}
+
+.aboutme > p {
+	text-align:left;
+	font-size: 30px;
+}
+
+div.aboutme2 {
+	display:block;
+	width: 600px;
+	height:auto;
+	margin-right: 10px;
+	float:left;
+	border: 3px solid #000000;
+}
+
+.aboutme2 > p {
+	text-align:left;
+	font-size: 30px;
+}
+
+div.mypicture {
+	width: 200px;
+	background-color:#000000;
+	height:400px;
+	margin-right: auto;
+	margin-left:auto;
+	border-radius: 100%;
+	border: 3px solid #000000;
+}
+
+
+

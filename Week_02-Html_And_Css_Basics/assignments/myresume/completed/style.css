@@ -9,8 +9,15 @@ html {
 body {
   background-color: #3B3A35; 
   font-family:'Libre Baskerville', serif;
-  margin:1px;
+  margin:0px;
   padding:0px;
+}
+
+#headercontainer {
+  width:100%;
+  height:50px;
+  margin-top: 0px;
+  margin-bottom:40px;
 }
 
 header {
@@ -29,20 +36,14 @@ text#name {
   font-size:28px;
 }
 
-div#picturecontainer {
-  width:500px;
-  height:auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-img#cart {
+div > img#cart {
   width:500px;
   height:auto;
   margin-right: auto;
   margin-left:auto;
   display:block;
   align-content: center;
+  border: 5px solid #000000;
 
 }
 
@@ -55,7 +56,7 @@ div.bottomnav {
 
 p#text a {
   font-family:'Libre Baskerville', serif;
-  color:#FFFFFF;
+  color:#000000;
   text-align:center;
   font-weight:450px;
   font-size:20px;
