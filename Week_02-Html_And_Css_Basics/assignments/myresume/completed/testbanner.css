@@ -7,7 +7,7 @@ html {
 
 body {
 	background-color:#FFFFFF;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Abril Fatface';
 	padding:0px;
 }
 
@@ -36,7 +36,6 @@ img#rickshaw {
 h1 {
 	text-align: center;
 	font-size:100px;
-	text-decoration:underline;
 	margin-left: 10px;
 }
 div.clearit {
