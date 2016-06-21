@@ -21,6 +21,7 @@ div#universe {
 section#universe > div#sun {
 	position:absolute;
 	background-color:#FF2200;
+	background-image: radial-gradient(circle at 0px 0px, #38EBFF, #FF1492);
 	border-radius: 100%;
 	height:100%;
 	width:100%;
@@ -37,10 +38,22 @@ div#centeraxis {
 	left:50%;
 	z-index:1;
 }
-section#universe > .planet {
+section#universe > div.planet {
 	border-radius:100%;
 	position:absolute;
-	height:20%;
-	width:20%;
-	background-color: gradient ()
+	height:15%;
+	width:15%;
 }
+section#universe div#planet1 {
+	top:50p;
+	left:-100;
+	background-color:#DB21B6;
+  	background-image: radial-gradient(circle at 0px 0px, #38EBFF, #FF1492);
+	z-index:1;
+}
+section#universe div#planet2 {
+	background-color:#DB21B6;
+	z-index:501;
+	background-image: radial-gradient(circle at 0px 0px, #38EBFF, #FF1492);
+}
+
