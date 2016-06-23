@@ -4,19 +4,21 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
 body {
 	background-color:#FFFFFF;
 	font-family: 'Abril Fatface';
 	padding:0px;
 }
-
 div#mainpic {
 	width:100%;
 	height: 650px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2px;
+}
+div.clearit {
+	clear:left;
+	clear:right;
 }
 
 img#rickshaw {
@@ -26,20 +28,40 @@ img#rickshaw {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 #name {
 	width:70%;
+	height:40px;
 	margin-left: 10px;
 	margin-right: auto;
+	margin-top: -40px;
 }
-
 h1 {
 	text-align: center;
 	font-size:100px;
 	margin-left: 10px;
 }
-div.clearit {
-	clear: both;
+div.picturecontainer  {
+	width:320px;
+	height:320px;
+	border: 3pt solid #000000;
+}
+div#picture1 {
+	float:right;
+	margin-right:5%;
+}
+div#picture2 {
+	float:right;
+	margin-right:10px;
+}
+div#picture3 {
+	float:right;
+	margin-right: 10px;
+}
+
+
+
+/*
+
 }
 div.topnavparent {
 	width:100%;
@@ -54,8 +76,6 @@ nav.topnav {
 	font-style: italic;
 	color:#FFFFFF;
 }
-
-
 /*div.mypicture {
 	width: 200px;
 	background-color:#000000;
