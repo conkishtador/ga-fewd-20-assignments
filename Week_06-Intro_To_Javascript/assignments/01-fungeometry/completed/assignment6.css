@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: #FF2277;
+	padding:0;
+}
+div.box {
+	height:150pt;
+	width:150pt;
+	border: 3pt solid #FFFFFF;
+	background-color: #645;
+}
+div#box2 {
+	float:right;
+}
+div#box3 {
+	float:right;
+	clear:both;
+}
+div#box4 {
+	margin-top: 5pt;
+}
