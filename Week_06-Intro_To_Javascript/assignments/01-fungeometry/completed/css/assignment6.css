@@ -5,8 +5,11 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: #FF2277;
+	background-image: radial-gradient(circle, #FF2244, #FF3366, #FF8811);
 	padding:0;
+	margin-right:30pt;
+	margin-left:30pt;
+
 }
 /*@media (max-width: 200pt) {
   .box {
@@ -24,12 +27,12 @@ div#box1 {
 }
 div#box2 {
 	float:right;
-	margin-bottom: 5pt;
+	margin-bottom: 10pt;
 }
 div#box3 {
 	float:right;
 	clear:both;
 }
 div#box4 {
-	margin-top: 5pt;
+	margin-top: 10pt;
 }
