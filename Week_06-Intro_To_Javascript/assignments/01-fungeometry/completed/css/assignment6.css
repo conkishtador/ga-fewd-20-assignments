@@ -8,14 +8,23 @@ body {
 	background-color: #FF2277;
 	padding:0;
 }
+/*@media (max-width: 200pt) {
+  .box {
+    display: none;
+  }
+} */
 div.box {
 	height:150pt;
 	width:150pt;
 	border: 3pt solid #FFFFFF;
 	background-color: #645;
 }
+div#box1 {
+	clear:both;
+}
 div#box2 {
 	float:right;
+	margin-bottom: 5pt;
 }
 div#box3 {
 	float:right;
