@@ -1,9 +1,9 @@
 "use strict";
 
+debugger;
+
 function main () {
 
-	debugger;
-	
 	var box1 = document.getElementById("box1");
 	var box2 = document.getElementById("box2");
 	var box3 = document.getElementById("box3");
@@ -22,10 +22,10 @@ function main () {
 	var box3=document.getElementById("box3");
 	var box4=document.getElementById("box4");
 
-	box1.style.transform = "rotate(90deg)";
-	box2.style.transform = "rotate(180deg)";
-	box3.style.transform = "rotate(270deg)";
-	box4.style.transform = "rotate(360deg)";	
+	box1.style.transform = "rotate(30deg)";
+	box2.style.transform = "rotate(60deg)";
+	box3.style.transform = "rotate(900deg)";
+	box4.style.transform = "rotate(1200deg)";	
 	}
 
 	function clickedbox2 () {
@@ -34,10 +34,10 @@ function main () {
 	var box3=document.getElementById("box3");
 	var box4=document.getElementById("box4");
 
-	box1.style.transform = "rotate(90deg)";
-	box2.style.transform = "rotate(180deg)";
-	box3.style.transform = "rotate(270deg)";
-	box4.style.transform = "rotate(360deg)";
+	box1.style.transform = "rotate(30deg)";
+	box2.style.transform = "rotate(60deg)";
+	box3.style.transform = "rotate(90deg)";
+	box4.style.transform = "rotate(120deg)";
 	}
 
 function clickedbox3 () {
@@ -46,10 +46,10 @@ function clickedbox3 () {
 	var box3=document.getElementById("box3");
 	var box4=document.getElementById("box4");
 
-	box1.style.transform = "rotate(90deg)";
-	box2.style.transform = "rotate(180deg)";
-	box3.style.transform = "rotate(270deg)";
-	box4.style.transform = "rotate(360deg)";
+	box1.style.transform = "rotate(30deg)";
+	box2.style.transform = "rotate(60deg)";
+	box3.style.transform = "rotate(90deg)";
+	box4.style.transform = "rotate(120deg)";
 	}
 
 	function clickedbox4 () {
@@ -58,10 +58,10 @@ function clickedbox3 () {
 	var box3=document.getElementById("box3");
 	var box4=document.getElementById("box4");
 
-	box1.style.transform = "rotate(90deg)";
-	box2.style.transform = "rotate(180deg)";
-	box3.style.transform = "rotate(270deg)";
-	box4.style.transform = "rotate(360deg)";
+	box1.style.transform = "rotate(30deg)";
+	box2.style.transform = "rotate(60deg)";
+	box3.style.transform = "rotate(90deg)";
+	box4.style.transform = "rotate(120deg)";
 	}
 
 	window.addEventListener("load", main);
