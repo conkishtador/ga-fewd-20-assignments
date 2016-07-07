@@ -45,29 +45,37 @@ h1 {
 	font-size:100pt;
 	margin-left: 10pt;
 }
+/*div.picturearea {
+	margin-right:auto;
+	margin-left:auto;
+	width:200pt;
+	height:200pt;
+} */
 div.picturecontainer  {
-	width:320pt;
-	height:320pt;
+	width:200pt;
+	height:200pt;
 	background-size:cover;
+	position:center;
 }
 div#picture1 {
 	float:right;
-	margin-right:63pt;
+	margin-right:10pt;
 	display:inline-block;
 	background-image: url("./images/overla.jpg");
 }
 div#picture2 {
 	float:right;
-	margin-right:60pt;
+	margin-right:10pt;
 	display:inline-block;
-	background-image: url("./images/overla.jpg");
+	background-image: url("./images/sick.jpg");
 }
 div#picture3 {
 	float:right;
-	margin-right: 60px;
+	margin-right: 10px;
 	display:inline-block;
-	margin-left: 63pt;
-	background-image: url("./images/overla.jpg");
+	margin-left: 10pt;
+	background-image: url("./images/thaiboatz.jpg");
+
 }
 /*div#picture4 {
 	
@@ -76,7 +84,7 @@ div#picture3 {
 /*div#picture5 {
 	
 }
-*/
+
 div#picture6 {
 	float:right;
 	
@@ -89,12 +97,12 @@ div#picture6 {
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #FFFFFF;
-}*/
+}
 nav.topnav > i {
 	margin-left:auto;
 	margin-right: auto;
 }
-
+*/
 
 
 
