@@ -38,6 +38,8 @@ function main () {
 	box2.style.transform = "rotate(60deg)";
 	box3.style.transform = "rotate(90deg)";
 	box4.style.transform = "rotate(120deg)";
+
+	/* box1.color.transform = "#FF2244"; */
 	}
 
 function clickedbox3 () {
@@ -63,5 +65,11 @@ function clickedbox3 () {
 	box3.style.transform = "rotate(90deg)";
 	box4.style.transform = "rotate(120deg)";
 	}
+
+	/*function clickeddiamond () {
+		var diamond=document.getElementById("diamond")
+
+		diamond.style.transform = "rotate(45deg)";
+	} */
 
 	window.addEventListener("load", main);
