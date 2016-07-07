@@ -45,37 +45,39 @@ h1 {
 	font-size:100pt;
 	margin-left: 10pt;
 }
-/*div.picturearea {
-	margin-right:auto;
-	margin-left:auto;
-	width:200pt;
-	height:200pt;
-} */
 div.picturecontainer  {
-	width:200pt;
-	height:200pt;
-	background-size:cover;
-	position:center;
+	width:600pt;
+	height:175pt;
+	margin-left:auto;
+	margin-right: auto;
 }
 div#picture1 {
+	height:175pt;
+	width:175pt;
 	float:right;
 	margin-right:10pt;
 	display:inline-block;
 	background-image: url("./images/overla.jpg");
+	background-size:cover;
 }
 div#picture2 {
+	height:175pt;
+	width:175pt;
 	float:right;
 	margin-right:10pt;
+	margin-left:10pt;
 	display:inline-block;
 	background-image: url("./images/sick.jpg");
+	background-size:cover;
 }
 div#picture3 {
-	float:right;
+	height:175pt;
+	width:175pt;
+	float:left;
 	margin-right: 10px;
 	display:inline-block;
-	margin-left: 10pt;
 	background-image: url("./images/thaiboatz.jpg");
-
+	background-size:cover;
 }
 /*div#picture4 {
 	
