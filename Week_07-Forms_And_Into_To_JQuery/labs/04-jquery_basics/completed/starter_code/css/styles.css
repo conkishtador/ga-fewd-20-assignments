@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-size: 4rem;
+}
+main {
+	margin-top: 3rem;
+	width:50%;
+	margin-left: auto;
+	margin-right:auto; 
+}
+main p {
+	line-height: 3rem;
+	padding: 3rem 2rem 3rem 2rem;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor:pointer;
+	border: 3px solid #FFF;
+}
+p#question {
+	background-color: #FF2908;
+	border: 20px solid #000000;
+	border-radius: 100%;
+}
+p#answer {
+	display: none;
+	background-color: #55FF11;
+	border: 20px solid #FF21D3;
+	color: #FFF;
+	font-size: 100pt;
+}
+p#question.coolblue {
+	transition: background-color 3.0s ease;
+	background-color: #0000FF;
+}
