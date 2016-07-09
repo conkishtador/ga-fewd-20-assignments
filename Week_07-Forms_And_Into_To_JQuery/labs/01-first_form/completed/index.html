@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+  	<form>
+  <fieldset>
+  	<label for="username">Username</label>
+  		<input 
+	  		id="firstname" 
+	  		name="firstname" 
+	  		type="text" 
+	  		value="Kishore" 
+	  		placeholder="Enter your first name" 
+	  		readonly="readonly"/>
+	  </fieldset>
+
+	  <fieldset>
+	  	<label for="password">Password </label>
+  		<input 
+	  		id="password" 
+	  		name="password" 
+	  		type="password" 
+	  		value="12345678" 
+	  		placeholder="Enter your last name" required />
+	  </fieldset>
+
+	  <fieldset>
+	  	<label for="bio">Bio</label>
+	  <fieldset>
+
+	  <fieldset>
+  		<textarea placeholder="Enter your bio here" id="bio" name="bio">Hi my name is Kishore Shah and I like to swim.
+  		</textarea>
+  	</fieldset>
+
+  	<fieldset>
+  		<label for="createaccount">Create Account </label>
+  		<input 
+  			id="submit" 
+  			name="createacct" 
+  			type="submit" 
+  			value="Create Account" />
+  	</fieldset>
+
+  	<fieldset> 
+  		<label for="animal">Animals!</label>
+  		<select id="animal" name="animal" multiple size="4">
+  			<optgroup label="Animals">
+  				<option value="wildabeast">Wildabeast</option>
+  				<option value="monkey">Monkey</option>
+  				<option value="eagle">Eagle</option>
+  			</optgroup>
+  			<optgroup label="Foods">
+  				<option value="dumps" selected>Dumplings</option>
+  				<option value="salad">Salad</option>
+  				<option value="bread">Bread</option>
+  			</optgroup>
+  		</select>
+  	</fieldset>
+
+  	<fieldset>
+  		<!--<label for="checkbox">CHECK</label> -->
+  		<input 
+  			type="checkbox" 
+  			id="checkbox" 
+  			name="checkbox"
+  			checked />
+  		<label for="radio">Pick one</label>	
+  		<input 
+  			type="radio"
+  			id="radio"
+  			name="radio"
+  			value="radio" />
+  		<label for="radio2">Pick another one</label>	
+  		<input 
+  			type="radio"
+  			id="radio2"
+  			name="radio"
+  			value="radio" />
+  		<label for="radio3">Pick another one</label>	
+  		<input 
+  			type="radio"
+  			id="radio3"
+  			name="radio"
+  			value="radio" />
+  	</fieldset>
+  		<input 
+  			type="number" 
+  			name="age" 
+  			min="5"
+  			max="500"
+  			placeholder="Enter your Age" />
+  		<div id="birthdaybox">
+  			<span>Birthday</span>
+	  		<input 
+	  			type="datetime-local"
+	  			id="birthday"
+	  			name="birthday" />
+	  		</div>
+  	</form>
+  </body>
+</html>

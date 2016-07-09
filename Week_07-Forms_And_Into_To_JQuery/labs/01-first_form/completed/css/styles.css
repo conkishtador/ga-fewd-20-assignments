@@ -1,0 +1,79 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+label {
+  color:#FFFFFF;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  width: 40%;
+  max-width: 640px;
+}
+div#birthdaybox {
+  position:relative;
+}
+div#birthdaybox > span {
+  position:absolute;
+  right:60px;
+  font-size:1.2rem;
+  top:28px;
+  color:#FF2200;
+}
+input {
+  border-radius: 1rem;
+  border: .5rem solid #000000;
+  padding: 1rem;
+}
+input, label, textarea, select {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  display: block;
+  font-size: 1rem;
+  width: 100%;
+}
+input:focus {
+  border: .5rem solid #001133;
+}
+input[type="submit"] {
+  padding: 1.5rem;
+}
+input[type="submit"]:focus {
+  border: .5rem solid #22FF55;
+}
+textarea#bio {
+  border-radius: 1rem;
+  border: .5rem solid #FF1111;
+  padding: 1rem;
+  width:100%;
+  text-align:left;
+}
+/* input [type="checkbox"] {
+
+} */
+textarea, optgroup {
+  text-align:left;
+}
+fieldset {
+  border:none;
+  padding:0px;
+  margin: 0px;
+}
+label {
+  text-align:center;
+  font-size: 20pt;
+  font-family: times;
+}
+
+
