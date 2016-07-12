@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/* MEDIA QUERIES FOR iPHONE 6 and 6+ */
+body {
+	font-family: 'Abril Fatface';
+	color:#000000;
+	/* background-image: url("./images/rickshaw.jpg");*/
+}
+div.sitenav > h1 {
+	text-transform: uppercase;
+	text-align:left;
+	font-size: 40pt;
+	line-height: 2rem;
+}
+span#workaboutcontact {
+	font-size: 20pt;
+	text-align: right;
+	text-transform: lowercase;
+	line-height: 1rem;
+	text-decoration: bold;
+}
