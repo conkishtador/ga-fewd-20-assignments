@@ -17,6 +17,7 @@ body {
 	margin-right:10px;
 }
 div.name > h1 {
+	position:static;
 	text-transform: uppercase;
 	text-align:left;
 	font-size: 40pt;
@@ -42,13 +43,18 @@ div.maintextblock {
 	width:540px;
 	float:right;
 	position:relative;
-	border: 2pt solid #000;	
+	/* border: 2pt solid #000; */
+	text-align: left;
+	margin-top: -16px;
+	line-height: -2rem;
+	font-family: 'Shadows Into Light', cursive;
 }
 div.socialnavbottom {
-	border: 2pt solid #000;	
+	/* border: 2pt solid #000; */
 	height:50px;
 	width:600px;
-	margin-top:35px;
+	margin-top:45px;
 	margin-left:auto;
 	margin-right:auto;
+	text-align: center;
 }
