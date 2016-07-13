@@ -4,22 +4,51 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-/* MEDIA QUERIES FOR iPHONE 6 and 6+ */
+@media {
+	min-width:
+}
 body {
 	font-family: 'Abril Fatface';
 	color:#000000;
 	/* background-image: url("./images/rickshaw.jpg");*/
+	width:auto;
+	height:auto;
+	margin-left:10px;
+	margin-right:10px;
 }
-div.sitenav > h1 {
+div.name > h1 {
 	text-transform: uppercase;
 	text-align:left;
 	font-size: 40pt;
 	line-height: 2rem;
 }
-span#workaboutcontact {
+div.workaboutcontact {
 	font-size: 20pt;
-	text-align: right;
+	float:right;
 	text-transform: lowercase;
-	line-height: 1rem;
 	text-decoration: bold;
+	clear:both;
+}
+div.mainpicturecontainer {
+	display: inline-block;
+	width:670px;
+	height:401px;
+	/* border: 2pt solid #000; */
+	background-size: cover;
+	background-image: url("./images/rickshaw.jpg");
+}
+div.maintextblock {
+	height:401px;
+	width:540px;
+	float:right;
+	position:relative;
+	border: 2pt solid #000;	
+}
+div.socialnavbottom {
+	border: 2pt solid #000;	
+	height:50px;
+	width:600px;
+	margin-top:35px;
+	margin-left:auto;
+	margin-right:auto;
 }
