@@ -1,0 +1,17 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background-image: url("whoa.jpg");
+}
+h3#heading {
+	color:#fff;
+}
+h3#heading:hover {
+	font-size: 30pt;
+	color:#22dd44;
+}
+

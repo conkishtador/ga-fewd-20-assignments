@@ -4,9 +4,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-@media {
+/* @media {
 	min-width:
-}
+} */
 body {
 	font-family: 'Abril Fatface';
 	color:#000000;
@@ -16,12 +16,13 @@ body {
 	margin-left:10px;
 	margin-right:10px;
 }
-div.name > h1 {
-	position:static;
+div.name {
 	text-transform: uppercase;
 	text-align:left;
-	font-size: 40pt;
+	font-size: 15pt;
 	line-height: 2rem;
+	height:50px;
+	width:100%;
 }
 div.workaboutcontact {
 	font-size: 20pt;
@@ -47,7 +48,8 @@ div.maintextblock {
 	text-align: left;
 	margin-top: -16px;
 	line-height: -2rem;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Abril Fatface';
+	font-load:;
 }
 div.socialnavbottom {
 	/* border: 2pt solid #000; */
