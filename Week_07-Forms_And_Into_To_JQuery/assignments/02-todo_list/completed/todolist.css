@@ -4,3 +4,22 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+body {
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+header#toptext {
+	text-align: center;
+}
+div#mainlist {
+	height:400px;
+	width:400px;
+	border: solid 3px #000000;
+	margin-right:auto;
+	margin-left:auto;
+}
+form#task {
+	margin-right: auto;
+
+}
