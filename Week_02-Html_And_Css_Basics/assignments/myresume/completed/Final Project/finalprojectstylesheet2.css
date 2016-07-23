@@ -4,11 +4,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
 html {
 	height: 100%;
 }
-
 body {
 	font-family: 'Abril Fatface';
 	color:#000000;
@@ -16,7 +14,6 @@ body {
 	margin: 0px;
 	padding: 50px 0px 0px 0px;
 }
-
 nav.fixednav {
 	position:fixed; 
 	width:100%;
@@ -30,18 +27,16 @@ nav.fixednav {
 	text-align: right;
 	padding-right: 10px;
 }
-
 main {
-	margin-top: 10px;
+	margin-top: 50px;
 }
-
-h1 {
-	line-height: 40px;
+h2 {
+	line-height: 37px;
 	margin: 0px;
 	padding: 0px;
+	text-transform: lowercase;
 }
-
-div.mainpic {
+div.owl-carousel {
 	margin-top: 0px;
 	display: block;
 	width:670px;
@@ -50,30 +45,36 @@ div.mainpic {
 	background-size: cover;
 	background-image: url("./images/rickshaw.jpg");
 	float:left;
+	margin-left: 20px;
 }
-
 div.maintextblock {
 	width: 40%;
 	padding-top: 0px;
 	float: left;
-	border: 2pt solid #000;
+	/*border: 2pt solid #000; */
 	text-align: left;
 	margin-top: 0px;
-	margin-left: 20px;
-	font-family: 'Abril Fatface';
+	margin-left: 40px;
+	font-family: 'Amatic SC', cursive;
+	font-size:30px;
 }
-
 div.maintextblock p:first-child {
 	margin-top: 0px;
 }
-
-nav.socialnavbottom {
-	position:fixed;
-	border: solid 2px #000;
+div.social {
+	height:20px;
 	margin-right:auto;
 	margin-left: auto;
 	width:50%;
 	height:50px;
+	text-align:center;
+	font-size: 30px;
+}
+
+div.social *,
+div.social *:before,
+div.social *:after {
+  text-decoration: none !important;
 }
 
 .clearit {
