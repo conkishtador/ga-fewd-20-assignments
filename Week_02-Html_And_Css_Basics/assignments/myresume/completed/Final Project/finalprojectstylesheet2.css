@@ -8,7 +8,6 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'Abril Fatface';
 	color:#000000;
 	height: 100%;
 	margin: 0px;
@@ -18,23 +17,39 @@ nav.fixednav {
 	position:fixed; 
 	width:100%;
 	height:50px;
-	border: solid 2px #000;
-	background-color: #333;
-	color:#FFF;
+	/*border: solid 2px #000;*/
+	color:#000;
 	top: 0px;
 	left: 0px;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Bungee Inline', cursive;
 	text-align: right;
 	padding-right: 10px;
+}
+nav.fixednav > h2 > a {
+	text-decoration: none;
+	color:#000;
 }
 main {
 	margin-top: 50px;
 }
+h1 {
+	line-height: 40px;
+	margin: 20px;
+	padding: 0px;
+	text-align:left;
+	line-height: 50px;
+	font-size:50px;
+}
 h2 {
-	line-height: 37px;
+	display: inline;
+	line-height: 10px;
 	margin: 0px;
 	padding: 0px;
-	text-transform: lowercase;
+	text-align:right;
+	float:right;
+	margin-top: -40px;
+	font-size: 25px;
+	margin-right: 20px;
 }
 div.owl-carousel {
 	margin-top: 0px;
@@ -43,40 +58,43 @@ div.owl-carousel {
 	height:401px;
 	/* border: 2pt solid #000; */
 	background-size: cover;
-	background-image: url("./images/rickshaw.jpg");
 	float:left;
 	margin-left: 20px;
+}
+img#rickshaw {
+	width:670px;
+	height:401px;
 }
 div.maintextblock {
 	width: 40%;
 	padding-top: 0px;
-	float: left;
+	float: right;
 	/*border: 2pt solid #000; */
 	text-align: left;
 	margin-top: 0px;
-	margin-left: 40px;
-	font-family: 'Amatic SC', cursive;
-	font-size:30px;
+	margin-left: 20px;
+	margin-right:20px;
+	font-family: 'Bungee Hairline', bold;
+	font-size:20px;
 }
 div.maintextblock p:first-child {
-	margin-top: 0px;
+	margin-top: -5px;
 }
 div.social {
 	height:20px;
 	margin-right:auto;
 	margin-left: auto;
+	margin-top: 40px;
 	width:50%;
 	height:50px;
 	text-align:center;
 	font-size: 30px;
 }
-
 div.social *,
 div.social *:before,
 div.social *:after {
   text-decoration: none !important;
 }
-
 .clearit {
 	clear: both;
 }
