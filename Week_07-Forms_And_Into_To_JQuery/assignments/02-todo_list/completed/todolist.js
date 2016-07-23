@@ -9,8 +9,6 @@ var handleForm = function () {
 	var taskVal = $("#task").val();
 	var priorityVal = $("#priority").val();
 	var duedateVal = $("#duedate").val();
-
-
 //**
 	var 
 
