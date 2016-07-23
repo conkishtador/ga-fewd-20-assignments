@@ -26,6 +26,9 @@ nav.fixednav {
 	color:#FFF;
 	top: 0px;
 	left: 0px;
+	font-family: 'Amatic SC', cursive;
+	text-align: right;
+	padding-right: 10px;
 }
 
 main {
@@ -33,7 +36,7 @@ main {
 }
 
 h1 {
-	line-height: 50px;
+	line-height: 40px;
 	margin: 0px;
 	padding: 0px;
 }
