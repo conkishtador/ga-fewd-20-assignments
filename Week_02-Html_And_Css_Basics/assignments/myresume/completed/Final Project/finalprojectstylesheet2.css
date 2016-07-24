@@ -26,9 +26,12 @@ nav.fixednav {
 	padding-right: 10px;
 	background-color: #222;
 }
-nav.fixednav > h2 > a {
+nav.fixednav > h2 > a{
 	text-decoration: none;
 	color:#FFF;
+}
+nav.fixednav > h2 > a:hover {
+	color:#FF432E ;
 }
 main {
 	margin-top: 50px;
@@ -65,8 +68,13 @@ img#rickshaw {
 	width:670px;
 	height:401px;
 }
-img# {
-
+img#ezra {
+	width:670px;
+	height:401px;
+}
+img#cart3 {
+	width:670px;
+	height:401px;
 }
 div.maintextblock {
 	width: 40%;
