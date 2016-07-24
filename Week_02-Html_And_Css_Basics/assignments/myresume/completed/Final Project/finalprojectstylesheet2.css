@@ -16,7 +16,7 @@ body {
 nav.fixednav {
 	position:fixed; 
 	width:100%;
-	height:50px;
+	height:70px;
 	/*border: solid 2px #000;*/
 	color:#FFF;
 	top: 0px;
@@ -34,12 +34,11 @@ main {
 	margin-top: 50px;
 }
 h1 {
-	line-height: 10px;
-	margin: 20px;
+	margin: 10px;
 	padding: 0px;
 	text-align:left;
 	line-height: 50px;
-	font-size:30px;
+	font-size:40px;
 }
 h2 {
 	display: inline;
@@ -49,9 +48,8 @@ h2 {
 	text-align:right;
 	float:right;
 	margin-top: -40px;
-	font-size: 30px;
+	font-size: 20px;
 	margin-right: 20px;
-	margin-bottom:-20px;
 }
 div.owl-carousel {
 	margin-top: 0px;
@@ -94,11 +92,14 @@ div.social {
 	height:50px;
 	text-align:center;
 	font-size: 30px;
+
 }
 div.social *,
 div.social *:before,
 div.social *:after {
   text-decoration: none !important;
+  color:#000;
+  margin-top: 30px;
 }
 .clearit {
 	clear: both;
