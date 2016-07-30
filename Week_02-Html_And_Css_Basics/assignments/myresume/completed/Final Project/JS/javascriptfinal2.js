@@ -9,6 +9,14 @@ $(document).ready(function() {
   });
 });
 
+// smooth scroll function
+//var smoothscroll = function () {
+// var $("a#about").on ("click", function () {
+//				$("#aboutsection")[0].scrollIntoView ({
+//				behavior:"smooth"
+//});
+//return false;
+
 
 
 

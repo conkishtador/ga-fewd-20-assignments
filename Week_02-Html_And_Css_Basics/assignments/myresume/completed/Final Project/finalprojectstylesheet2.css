@@ -76,6 +76,10 @@ img#cart3 {
 	width:670px;
 	height:401px;
 }
+img#krishna {
+	width:320px;
+	height:345px;
+}
 div.maintextblock {
 	width: 40%;
 	padding-top: 0px;
@@ -100,7 +104,6 @@ div.social {
 	height:50px;
 	text-align:center;
 	font-size: 30px;
-
 }
 div.social *,
 div.social *:before,
